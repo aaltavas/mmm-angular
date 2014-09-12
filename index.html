@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mean-Medain-Mode</title>
+</head>
+<body ng-app="mmmApp">
+	<div ng-controller="mmmCtrl">
+	<h2>Welcome to Mean-Median-Mode!</h2>
+	<p>Please enter a set of numbers separated by commas.</p>
+	<input type="text" ng-model="numbers"></text>
+	<!-- <button ng-click="calculate()">Calculate</button> -->
+	<span ng-bind="calculate()"></span>
+	<p id="mean"></p>
+	<p id="median"></p>
+	<p id="mode"><p>
+
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+	<script src = "app.js"></script>
+	<script src = "ctrl.js"></script>
+	<script src = "mean-median-mode.js"></script>
+</body>
+</html>
